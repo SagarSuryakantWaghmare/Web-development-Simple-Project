@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="r">
+                <img src="mail.png" alt="">
+                <span>EmailValidate</span>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About us</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+
+            <h2>Enter your email to validate</h2>
+            <form action="/submit" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter the valid Email">
+                <br><br>
+                <input type="button" id="submit" value="Submit">
+            </form>
+        </div>
+        <div class="re">
+            <h3>Your results</h3>
+            <div id="resultContainer"></div>
+        </div>
+
+    </main>
+    <footer>
+        Copyright| EmailValidate.com| All Rights Reserved@2024 By Sagar
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
