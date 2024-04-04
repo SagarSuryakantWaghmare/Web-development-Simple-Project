@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IM Fell DW Pica SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    background-color: rgb(64, 45, 45);
+}
+h1{
+    color: black;
+}
+.navbar {
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.logo img {
+    height: 44px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    min-height: 70vh;
+    background-color: rgb(66, 56, 56);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 23px auto;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    background-image: url(Assets/fast\ and\ furious\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container>.songList {
+    color: black;
+}
+
+.bottom {
+    position: sticky;
+    height: 140px;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+#myProgressBar {
+    width: 80vw;
+}
+
+.icons>img {
+    color: white;
+    background-color: white;
+    z-index: 10;
+    height: 8vh;
+}
+
+#Bg1,
+#Bg2 {
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.songList {
+    color: white;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    width: 50%;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#masterPlay {
+    cursor: pointer;
+}
+
+.songList>img {
+    width: 40px;
+    border: 2px solid white;
+    background: white;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.songlistplay>img {
+    color: white;
+    background-color: white;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.songlistplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timestramp i {
+    cursor: pointer;
+}
+
+.songListContainer {
+    margin-top: 80px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+#masterPlay{
+    cursor: pointer;
+}
+#gif{
+    width: 10vw;
+    height: 4vh;
+}
+#songName{
+    color: black;
+    visibility:hidden;
+}
+img{
+    background: url(Assets/);
+}
+#previous,#next{
+    cursor: pointer;
+}
